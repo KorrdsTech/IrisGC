@@ -1,0 +1,14 @@
+{
+  "name": "irisgc",
+  "version": "0.0.1",
+  "private": true,
+  "description": "✨ Focada em moderação com variados comandos multipropósito para atender todas as suas necessidades. ✨",
+  "author": "DanielaGC_ (https://github.com/DanielaGC)",
+  "license": "AGPL-3.0",
+  "repository": "https://github.com/RabbitHouseCorp/ChinoKafuu.git",
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.3.1",
+    "fs": "^0.0.1-security"
+  }
+}

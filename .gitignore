@@ -1,0 +1,5 @@
+/node_modules
+/package-lock.json
+/.env
+/desktop.ini
+/src/commands/magic/deleteAfterUSE.json
