@@ -1,7 +1,7 @@
 <h1 align="center">Iris</h1>
 
 <p align="center">
-  <img src="https://cdn.discordapp.com/avatars/936773967279173662/61d57ddba835b166765d6d3c8b3476b8.png?size=2048" alt="Iris Logo" width="200" height="200">
+  <img src="https://cdn.discordapp.com/avatars/936773967279173662/36346523f7a8ea587632dc08f9d07e65.png?size=2048" alt="IrisGC Logo" width="200" height="200">
 </p>
 
 <p align="center">
