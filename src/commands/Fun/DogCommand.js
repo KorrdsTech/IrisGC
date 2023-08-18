@@ -17,6 +17,7 @@ module.exports = class dog extends Command {
       .setTitle(`Seu doguinho 😍`)
       .setImage(gifs[Math.floor(Math.random() * gifs.length)])
       .setColor(colors['default'])
+      .setTimestamp(new Date())
 
     message.reply({ embeds: [embed] });
   }

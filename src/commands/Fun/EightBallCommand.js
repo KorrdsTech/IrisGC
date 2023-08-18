@@ -22,6 +22,7 @@ module.exports = class Eightball extends Command {
       .setColor(colors['default'])
       .addField('Questão', question)
       .addField('Resposta', replies[result])
+      .setTimestamp()
 
     message.reply({ embeds: [ballembed] });
   }

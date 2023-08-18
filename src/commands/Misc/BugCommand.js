@@ -23,7 +23,7 @@ module.exports = class bug extends Command {
       .addFields({ name: 'Ticket criado por:', value: `${message.author.tag}`, inline: true })
       .addFields({ name: '**ID:**', value: `${message.author.id}`, inline: true })
       .addFields({ name: '**Descrição:**', value: `${report}`, inline: true })
-
+       
       .setTimestamp(new Date())
 
     const sucesso = new MessageEmbed()
@@ -44,7 +44,7 @@ module.exports = class bug extends Command {
       .setColor(colors['vip'])
       .setThumbnail(`${message.author.displayAvatarURL()}`)
       .setDescription('**PREMIAÇÃO RECEBIDA**\n🌟 Parabéns! Você acaba de reportar um total de **10 bugs**\n😽 Estamos te dando este mimo como agradecimento por ajudar nosso desenvolvimento')
-      .setFooter({ text: 'Aproveite! Muito Obrigado -Equipe Iris', iconURL: message.guild.iconURL({ dynamic: true, size: 1024 }) })
+      .setFooter({ text: 'Aproveite! Muito Obrigado -Equipe Jeth', iconURL: message.guild.iconURL({ dynamic: true, size: 1024 }) })
       .setTimestamp(new Date())
 
     const guild = this.client.guilds.cache.get('1001368891160805506')

@@ -45,7 +45,8 @@ module.exports = class battle extends Command {
       .setDescription(`${message.author} e ${user} **estão disputando uma batalha!**`)
       .setImage(gifs[Math.floor(Math.random() * gifs.length)])
       .setColor(colors['default'])
-      .addFields({ name: 'Sobre a batalha:', value: `${message.author}\n${randomFalas()}\n${user}\n${randomFalas()}`})
+      .addField('Sobre a batalha:', `${message.author}\n${randomFalas()}\n${user}\n${randomFalas()}`)
+      .setTimestamp()
 
     message.reply({ embeds: [embedB] })
   }

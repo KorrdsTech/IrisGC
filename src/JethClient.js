@@ -2,7 +2,7 @@ const { Client, Collection, MessageEmbed } = require('discord.js')
 const { colors } = require('./utils')
 const Fs = require('fs')
 const Database = require('./utils/database/Database')
-module.exports = class IrisClient extends Client {
+module.exports = class JethClient extends Client {
   constructor(options) {
     super(options)
 
@@ -56,7 +56,7 @@ module.exports = class IrisClient extends Client {
     const embed = new MessageEmbed()
       .setColor(colors['default'])
       .setTitle(error.name)
-      .setAuthor({ name: this.user.username, iconURL: this.user.displayAvatarURL({ dynamic: true, size: 1024 }) })
+      .setAuthor({ name: this.user.username, iconURL: this.user.displayAvatarURL({ dynamic: true, size: 1024 })})
       .addDescription(error.message)
       .addField('Arquivo', `${error.fileName} ${error.lineNumber}`)
     return this.channels.get('1001368892385533953').send({ embeds: [embed] })
